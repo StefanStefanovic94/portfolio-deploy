@@ -1,0 +1,28 @@
+.allProjects {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #dee8d5;
+  justify-content: center;
+  font-family: cursive;
+  min-height: 757px;
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  div {
+    background-color: #e9fae3;
+    height: fit-content;
+    min-height: 260px;
+    margin: 10px;
+    font-family: monospace;
+    border-radius: 8px;
+
+  }
+  :hover div {
+    background-color: #ffff;
+  }
+}
+h1{
+  font-family: inherit;
+  font-weight: 900;
+}

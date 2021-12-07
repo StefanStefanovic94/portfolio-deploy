@@ -1,0 +1,47 @@
+.aboutDiv {
+  background: whitesmoke;
+  text-align: none;
+  position: relative;
+  margin: auto;
+  min-height: 757px;
+  h1 {
+    margin-bottom: 25px;
+  }
+
+  p {
+    // background: #dfe0e2;
+    // border: 3px solid #071013;
+    border-radius: 8px;
+    padding: 10px;
+    font-size: 18px;
+    margin: auto;
+    font-family: "Courier New", Courier, monospace;
+  }
+  .infoDiv {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: cursive;
+    justify-content: center;
+    .dateSchool {
+      color: grey;
+    }
+    div div {
+      margin-bottom: 20px;
+    }
+    .nameSchool {
+      font-size: 20px;
+      font-weight: 700;
+    }
+    .skils {
+      p {
+        padding: 0px;
+        font-family: "Courier New", Courier, monospace;
+        font-weight: 700;
+      }
+    }
+  }
+  // .center {
+  //   margin: auto;
+  // }
+}
