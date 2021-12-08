@@ -10,7 +10,9 @@ import { FiPhoneCall } from "react-icons/fi"
 const Sidebar = () => {
     return (
         <div className="wrapDiv">
-            <div><img src="https://avatars.githubusercontent.com/u/60787166?v=4" /></div>
+            <div><img src="https://avatars.githubusercontent.com/u/60787166?v=4" />
+            <p className="frontend">FRONT END DEVELOPER</p>
+            </div>
             <div className="icons">
                 {/* <a href="https://www.facebook.com/stefan.stefanovic.9279/" target="_blank"><FaFacebookF /></a> */}
                 <a href="https://www.linkedin.com/in/stefan-stefanovic-000a38141/" target="_blank"> <GrLinkedinOption /></a>

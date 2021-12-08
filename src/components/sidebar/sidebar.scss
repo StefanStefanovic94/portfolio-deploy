@@ -3,13 +3,17 @@
   min-height: 757px;
   font-family: inherit;
   height: 100%;
-  
-  a{
+  .frontend {
+    font-size: 12px;
+    font-family: none;
+    margin-bottom: 20px;
+  }
+  a {
     text-decoration: none;
     color: black;
   }
   img {
-    margin:auto;
+    margin: auto;
     display: block;
     width: 200px;
     border: 8px solid #2c2f3f;
