@@ -2,12 +2,17 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import { HashRouter } from 'react-router-dom';
+import { HashRouter as Router } from 'react-router-dom';
+
+import createHistory from "history/createBrowserHistory";
+
+
+
 
 
 ReactDOM.render(
-  <HashRouter>
+  <Router history={createHistory({ basename: process.env.PUBLIC_URL })}>
     <App />
-  </HashRouter>,
+  </Router>,
   document.getElementById('root')
 );
